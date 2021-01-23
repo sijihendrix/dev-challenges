@@ -4,7 +4,7 @@ export const Header = () => {
   const classes = useStyles();
   return (
     <main className={classes.root}>
-      <h2>404 NOT FOUND</h2>
+      <h2 className={classes.text}>404 NOT FOUND</h2>
     </main>
   );
 };
