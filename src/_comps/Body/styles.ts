@@ -3,7 +3,6 @@ import { createUseStyles } from "react-jss";
 export const useStyles = createUseStyles({
   root: {
     display: "flex",
-    //justifyContent: "flex-end",
   },
   content: {
     display: "flex",
@@ -14,16 +13,30 @@ export const useStyles = createUseStyles({
   },
   contentControl: {
     textAlign: "left",
+    width: "50%",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "space-around",
+    height: "70vh",
+    paddingTop: "5em",
   },
   title: {
     lineHeight: "95px",
     margin: "0",
-    //fontSize: "4.5rem",
-    //width: "59%",
+    fontSize: "4.5rem",
+    width: "90%",
   },
   message: {
-    //textAlign: "left",
     margin: "0",
+    fontSize: "1.5rem",
+    width: "45%",
+    lineHeight: "36px",
   },
-  button: {},
+  button: {
+    width: "25%",
+    background: "#333333",
+    height: "5em",
+    color: "#fff",
+    textTransform: "uppercase",
+  },
 });

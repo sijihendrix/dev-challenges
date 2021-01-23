@@ -8,8 +8,8 @@ export const Body = () => {
     <main
       style={{
         backgroundImage: `url(${Bckgrnd})`,
-        backgroundSize: "50%",
-        backgroundPosition: "left center",
+        backgroundSize: "40%",
+        backgroundPosition: "10% 50%",
         backgroundRepeat: "no-repeat",
       }}
     >
