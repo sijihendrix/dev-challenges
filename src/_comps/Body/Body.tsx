@@ -9,7 +9,7 @@ export const Body = () => {
       style={{
         backgroundImage: `url(${Bckgrnd})`,
         backgroundSize: "40%",
-        backgroundPosition: "10% 50%",
+        backgroundPosition: "8% 50%",
         backgroundRepeat: "no-repeat",
       }}
     >

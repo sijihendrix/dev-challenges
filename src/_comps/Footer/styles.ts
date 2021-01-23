@@ -5,7 +5,7 @@ export const useStyles = createUseStyles({
     display: "flex",
     justifyContent: "center",
     paddingBottom: "2em",
-    paddingTop: "6em",
+    paddingTop: "7em",
   },
   name: {
     fontFamily: "'Montserrat', sans-serif",
