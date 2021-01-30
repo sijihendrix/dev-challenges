@@ -10,5 +10,6 @@ export const useStyles = createUseStyles({
     lineHeight: "25px",
     color: "#333333",
     fontFamily: "'Inconsolata', monospace",
+    fontWeight: "800",
   },
 });

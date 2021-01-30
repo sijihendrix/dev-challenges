@@ -8,10 +8,8 @@ export const Body = () => {
     <main
       style={{
         backgroundImage: `url(${Bckgrnd})`,
-        backgroundSize: "40%",
-        backgroundPosition: "8% 50%",
-        backgroundRepeat: "no-repeat",
       }}
+      className={classes.root}
     >
       <div className={classes.content}>
         <div className={classes.contentControl}>

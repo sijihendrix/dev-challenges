@@ -12,4 +12,9 @@ export const useStyles = createUseStyles({
     fontSize: "0.8rem",
     fontWeight: "700",
   },
+  "@media (max-width: 504px)": {
+    root: {
+      paddingTop: "3rem",
+    },
+  },
 });
