@@ -9,7 +9,7 @@ export const useStyles = createUseStyles({
     flexDirection: "column",
     width: "100%",
     alignItems: "flex-end",
-    height: "100vh",
+    paddingTop: "9rem",
   },
   contentControl: {
     textAlign: "left",
@@ -17,9 +17,8 @@ export const useStyles = createUseStyles({
     display: "flex",
     flexDirection: "column",
     justifyContent: "space-around",
-    height: "65vh",
+    paddingBottom: "11rem",
     maxHeight: "600px",
-    paddingTop: "7em",
   },
   title: {
     lineHeight: "90px",
@@ -29,6 +28,8 @@ export const useStyles = createUseStyles({
     fontFamily: "'Space Mono', monospace",
   },
   message: {
+    paddingTop: "2rem",
+    paddingBottom: "2rem",
     margin: "0",
     fontSize: "1.5rem",
     width: "60%",
@@ -37,11 +38,11 @@ export const useStyles = createUseStyles({
     fontFamily: "'Space Mono', monospace",
   },
   button: {
-    width: "32%",
+    width: "30%",
     background: "#333333",
-    height: "5em",
     color: "#fff",
     textTransform: "uppercase",
     fontFamily: "'Space Mono', monospace",
+    padding: "1.5rem 0",
   },
 });
